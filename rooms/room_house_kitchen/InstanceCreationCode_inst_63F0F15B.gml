@@ -1,0 +1,2 @@
+target_room=room_house_downstairs;
+target_landmark=1;

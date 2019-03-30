@@ -38,3 +38,6 @@ if(can_move){
 }
 
 event_inherited();
+
+_light.x=x;
+_light.y=y-sprite_height/2;

@@ -3,3 +3,4 @@
 #include "./string/item.txt"
 #include "./string/menu.txt"
 #include "./string/font.txt"
+#include "./string/dialog.txt"
