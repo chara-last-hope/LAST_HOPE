@@ -1,7 +1,7 @@
 {
     "id": "ce9aa01d-471d-4299-a578-a4854389b153",
     "modelName": "GMFont",
-    "mvc": "1.1",
+    "mvc": "1.0",
     "name": "font_crypt_of_tomorrow",
     "AntiAlias": 0,
     "TTFName": "",
@@ -10,7 +10,6 @@
     "charset": 0,
     "first": 0,
     "fontName": "Crypt of Tomorrow",
-    "glyphOperations": 0,
     "glyphs": [
         {
             "Key": 32,
@@ -1438,16 +1437,13 @@
             }
         }
     ],
-    "hinting": 0,
+    "image": null,
     "includeTTF": false,
-    "interpreter": 0,
     "italic": false,
     "kerningPairs": [
         
     ],
     "last": 0,
-    "maintainGms1Font": false,
-    "pointRounding": 0,
     "ranges": [
         {
             "x": 32,
