@@ -13,4 +13,3 @@
 "dialog.house.kitchen.photo"		"* It's a picture of you and&  your \"Parents\"...{pause}{clear}* (As you look at it your&  throat tightens a little.){pause}{clear}* Haha...{pause}{clear}* The tears wont stop pouring from&  your face..."
 "dialog.house.kitchen.knife"		"* Can't get into the knife&  drawer...{pause}{clear}* It's held shut by a padlock...{pause}{clear}* Well, {sleep 20}well,&{sleep 20}* What a shame..."
 "dialog.house.doors.drawer"		"* The cupboard is&  filled with empty glass&  bottles..."
-"dialog.thx.tml"		"* Thank You TML!"
