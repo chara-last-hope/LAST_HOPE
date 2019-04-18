@@ -1,16 +1,9 @@
-//Anything you want, must be a string.
-#macro GAME_NAME "UNDERTALE Engine"
+#macro GAME_NAME "Undertale: A New Hope"
 
-//Anything you want, must be a string.
-#macro GAME_AUTHOR "TML"
+#macro GAME_AUTHOR "BlueGames"
 
-//Anything you want, must be a string.
-#macro GAME_VERSION "v0.0.0"
+#macro GAME_VERSION "v0.1.0"
 
-//Anything you want, must be a string.
-//Can only contain letters numbers and underscores(_).
-#macro GAME_SAVE_NAME "undertale_engine"
+#macro GAME_SAVE_NAME "undertale_a_new_hope"
 
-//A GUID, must be a string.
-//Generate GUID here: https://www.guidgen.com/
-#macro GAME_GUID "{"+string_upper("00000000-0000-0000-0000-000000000000")+"}"
+#macro GAME_GUID "{"+string_upper("17b3af29-bcc4-4ac1-98ad-df0a5f749083")+"}"
