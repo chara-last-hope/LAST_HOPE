@@ -1,6 +1,0 @@
-#include "./string/battle.txt"
-#include "./string/ui.txt"
-#include "./string/item.txt"
-#include "./string/menu.txt"
-#include "./string/font.txt"
-#include "./string/dialog.txt"

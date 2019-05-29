@@ -391,14 +391,6 @@
             }
         },
         {
-            "Key": "0dd98779-2377-4e9a-9e8e-cf6b4701f02e",
-            "Value": {
-                "id": "bd85f0a4-2c7a-4837-8009-5cefecc0eeca",
-                "resourcePath": "datafiles_yy\\locale\\schinese\\string\\ui.txt.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "0deac79a-75c6-4ca3-93c3-703303a8cf60",
             "Value": {
                 "id": "27ff9fb3-8001-49a5-b15e-7c254cb26d05",
@@ -556,14 +548,6 @@
                 "id": "5c4343b3-4c64-4c4d-8e40-eac99d57fe8b",
                 "resourcePath": "scripts\\Player_GetSpdTotal\\Player_GetSpdTotal.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "17cc8bff-ff0b-457b-9a6e-7dc90444658a",
-            "Value": {
-                "id": "57c63762-306e-4888-950a-3b8ed076b877",
-                "resourcePath": "views\\17cc8bff-ff0b-457b-9a6e-7dc90444658a.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -1199,14 +1183,6 @@
             }
         },
         {
-            "Key": "34a00493-274a-41f3-8036-bb381219bc92",
-            "Value": {
-                "id": "e8f831f5-eed2-4709-b3c5-2e95085fefa6",
-                "resourcePath": "datafiles_yy\\locale\\schinese\\string\\font.txt.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "3539a799-1d0e-49b5-8c88-511215da7b19",
             "Value": {
                 "id": "fbbf282e-e143-4009-99e9-d6cf4edea89e",
@@ -1292,14 +1268,6 @@
                 "id": "5d1b92fc-5417-4403-8e3a-c8640e22d8f4",
                 "resourcePath": "scripts\\Player_GetInvTotal\\Player_GetInvTotal.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "3912e574-f4c2-4203-8a13-8a9a630003f2",
-            "Value": {
-                "id": "d091d594-ae9e-4635-aa70-59f251217ea9",
-                "resourcePath": "datafiles_yy\\locale\\schinese\\string\\dialog.txt.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1399,6 +1367,14 @@
             }
         },
         {
+            "Key": "3e497a6d-8fe9-48f1-9ea9-85c4047ad2e7",
+            "Value": {
+                "id": "791b5041-3d79-48a7-be35-ed0d16fcbf48",
+                "resourcePath": "scripts\\Game_SetFrameSkip\\Game_SetFrameSkip.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3e4b0b4d-c652-4ea9-8310-30b318dbe11d",
             "Value": {
                 "id": "d78445a0-8707-4df2-94a8-bb3435e409ca",
@@ -1412,14 +1388,6 @@
                 "id": "839c6bf0-2795-49fb-87ae-4a7e07b2064e",
                 "resourcePath": "sprites\\spr_char_chara_right\\spr_char_chara_right.yy",
                 "resourceType": "GMSprite"
-			}
-		},
-		{
-            "Key": "3e497a6d-8fe9-48f1-9ea9-85c4047ad2e7",
-            "Value": {
-                "id": "791b5041-3d79-48a7-be35-ed0d16fcbf48",
-                "resourcePath": "scripts\\Game_SetFrameSkip\\Game_SetFrameSkip.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1795,14 +1763,6 @@
             "Value": {
                 "id": "db84efb7-5715-4920-ac9f-74f020f3b0d8",
                 "resourcePath": "views\\50f458f6-b21d-42c0-a2ef-5ecc7d5568c1.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "5131ad12-53a8-4be6-9188-5a39a1246715",
-            "Value": {
-                "id": "4dc16c79-6768-433f-9368-971ea80f7d18",
-                "resourcePath": "views\\5131ad12-53a8-4be6-9188-5a39a1246715.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2311,14 +2271,6 @@
             }
         },
         {
-            "Key": "6aaa4fe4-28ce-41b3-b7fe-8ae973b717c2",
-            "Value": {
-                "id": "d478ce35-7b04-4ee3-aba5-88b859fafbf2",
-                "resourcePath": "datafiles_yy\\locale\\schinese\\font\\font_zpix.ini.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "6ae1a397-c632-44d6-912e-ddbd027d1d96",
             "Value": {
                 "id": "2693578d-ec9f-40dc-bc2f-5b90cd114464",
@@ -2500,14 +2452,6 @@
                 "id": "60dc076d-3b59-44b0-9833-155b8b0a7995",
                 "resourcePath": "scripts\\Lang_IsExists\\Lang_IsExists.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "7302947f-a637-4096-a403-599be22e6deb",
-            "Value": {
-                "id": "da908aae-a26e-4379-b00e-e791c9dcfc15",
-                "resourcePath": "datafiles_yy\\locale\\schinese\\font.txt.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2830,7 +2774,7 @@
                 "resourceType": "GMSprite"
             }
         },
-		{
+        {
             "Key": "83ad2a3b-5c55-4d35-aa70-a0b1b63838db",
             "Value": {
                 "id": "0fe294d6-2f54-4302-80d8-edecad71a0bc",
@@ -3023,14 +2967,6 @@
             }
         },
         {
-            "Key": "8ab0ae87-c9a0-4d36-9289-e0eff3959af3",
-            "Value": {
-                "id": "530efc54-632f-47e0-a8bb-5a3ad165f1a6",
-                "resourcePath": "datafiles_yy\\locale\\schinese\\string\\battle.txt.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "8b2e7c3d-3a84-42be-80bb-fea18de60190",
             "Value": {
                 "id": "75402529-5b6c-4301-aea1-68eeb8f360e3",
@@ -3172,14 +3108,6 @@
                 "id": "d2a44a77-93ce-41f3-9bed-1fdb9a9624d0",
                 "resourcePath": "scripts\\Console_ProcessCmd\\Console_ProcessCmd.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "92594049-5d1c-45ce-b023-4ddd4170b6df",
-            "Value": {
-                "id": "cf46e9a6-5e6e-4dab-b25d-0cc443f85689",
-                "resourcePath": "datafiles_yy\\locale\\schinese\\string\\menu.txt.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -3759,14 +3687,6 @@
             }
         },
         {
-            "Key": "af679590-e4ea-474c-8896-3902cf11fd51",
-            "Value": {
-                "id": "eb8fc428-e1d2-46c2-9daf-10609d120904",
-                "resourcePath": "datafiles_yy\\locale\\schinese\\string.txt.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "b0b4d0d7-7bd9-4ffd-951b-0ed999727dcc",
             "Value": {
                 "id": "3fd67361-f27d-463f-9262-0f6e07472f8d",
@@ -3828,14 +3748,6 @@
                 "id": "bee3d0b4-5f5b-4d0c-a256-4b50a6e43f89",
                 "resourcePath": "rooms\\room_house_upstairs\\room_house_upstairs.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "b37c42b6-5339-4472-bee1-3902d84b6254",
-            "Value": {
-                "id": "923fd5e8-5fed-4101-a083-52fcc816b634",
-                "resourcePath": "datafiles_yy\\locale\\schinese\\font\\font_zpix.ttf.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -4060,14 +3972,6 @@
                 "id": "02ec0fcc-b9d5-429e-9a56-3613cb1cafeb",
                 "resourcePath": "scripts\\Battle_GetTurnInfo\\Battle_GetTurnInfo.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "c1f80f0e-97c4-48ab-9fe8-30147cef2924",
-            "Value": {
-                "id": "3b48eaad-9f80-4f4e-b055-f46cc51de5a1",
-                "resourcePath": "views\\c1f80f0e-97c4-48ab-9fe8-30147cef2924.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -5324,14 +5228,6 @@
                 "id": "299bd7fc-5534-48c4-848a-e4a765a87909",
                 "resourcePath": "objects\\ui_menu\\ui_menu.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "fc56c032-3c37-479f-ba15-47b24732bd50",
-            "Value": {
-                "id": "1b9cf014-5f07-49cb-9f24-7c0874bed820",
-                "resourcePath": "datafiles_yy\\locale\\schinese\\string\\item.txt.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
