@@ -28,7 +28,10 @@
         "231c0ef9-fc93-4413-a4d0-9c1c5758b1b8",
         "03a33380-38f1-4ee0-b9f8-61b6f6a16b23",
         "dd38fa98-f4c0-4806-a5ff-344f12319fd2",
-        "aefdc417-6a8a-45b2-8610-2fd3fc25f4e5"
+        "aefdc417-6a8a-45b2-8610-2fd3fc25f4e5",
+        "eef74999-af95-4c0d-9392-5f77634460bb",
+        "e510b83a-27d3-4be0-9c5d-a3805fd6f4fe",
+        "85453641-152d-4435-bb88-5481893d502b"
     ],
     "filterType": "GMSprite",
     "folderName": "BG",
