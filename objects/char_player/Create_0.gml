@@ -17,5 +17,6 @@ _moveable_menu=true;
 _moveable_save=true;
 _moveable_warp=true;
 _moveable_encounter=true;
+_moveable_box=true;
 
 _light=instance_create_depth(x,y-sprite_height/2,0,light_circle);
