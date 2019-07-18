@@ -1,0 +1,19 @@
+if(keyboard_check(vk_up)){
+	_lookat_to_z-=10;
+}
+if(keyboard_check(vk_down)){
+	_lookat_to_z+=10;
+}
+if(keyboard_check(ord("W"))){
+	_lookat_from_z-=10;
+}
+if(keyboard_check(ord("S"))){
+	_lookat_from_z+=10;
+}
+
+_lookat_from_x=lengthdir_x(720,-current_time/30)+room_width*0.5;
+_lookat_from_y=lengthdir_y(720,-current_time/30)+room_height*0.5;
+_lookat_from_z=-600;
+_lookat_to_x=room_width*0.5;
+_lookat_to_y=room_height*0.5;
+_lookat_to_z=0;

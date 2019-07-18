@@ -13,7 +13,7 @@ if(warp_landmark!=-1&&instance_exists(hint_landmark)){
 		}
 	}
 	x=lx;
-	y=ly;
+	y=ly-1;
 }
 if(warp_dir!=-1){
 	dir=warp_dir;
