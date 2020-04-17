@@ -1,0 +1,1 @@
+bgm=snd_rainloop0;

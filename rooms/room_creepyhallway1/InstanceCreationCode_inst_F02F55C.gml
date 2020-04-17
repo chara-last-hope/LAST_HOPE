@@ -1,0 +1,1 @@
+mydir=DIR.UP

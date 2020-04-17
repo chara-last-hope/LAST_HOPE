@@ -113,6 +113,56 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "5669bcb9-3593-4f73-a393-46e10ba563a3"
+        },
+        {
+            "id": "9a3cee2a-5cd4-4688-a945-dbc0ea1daf52",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 90,
+            "eventtype": 9,
+            "m_owner": "5669bcb9-3593-4f73-a393-46e10ba563a3"
+        },
+        {
+            "id": "f29755c7-2df7-494d-b26f-c765927c1900",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 37,
+            "eventtype": 9,
+            "m_owner": "5669bcb9-3593-4f73-a393-46e10ba563a3"
+        },
+        {
+            "id": "c0371993-7e9e-4fb5-97f7-5cd50a759a3f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 39,
+            "eventtype": 9,
+            "m_owner": "5669bcb9-3593-4f73-a393-46e10ba563a3"
+        },
+        {
+            "id": "dc6d3c6f-5c36-407c-8de7-457352a141dd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 6,
+            "eventtype": 2,
+            "m_owner": "5669bcb9-3593-4f73-a393-46e10ba563a3"
+        },
+        {
+            "id": "0a8aeebd-f7ad-4214-a8ed-cf1fc5420aa4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 82,
+            "eventtype": 9,
+            "m_owner": "5669bcb9-3593-4f73-a393-46e10ba563a3"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

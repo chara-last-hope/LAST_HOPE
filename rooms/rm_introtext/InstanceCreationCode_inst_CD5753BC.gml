@@ -1,0 +1,1 @@
+mytext="{speed 0.03}With every person, there is a story..."

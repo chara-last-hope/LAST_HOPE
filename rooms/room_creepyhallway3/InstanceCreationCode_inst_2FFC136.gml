@@ -1,0 +1,2 @@
+target_room=room_creepyhallway4;
+target_landmark=1;

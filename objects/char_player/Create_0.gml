@@ -1,6 +1,8 @@
 event_inherited();
 
 char_id=0;
+smiling=false
+
 
 res_idle_sprite[DIR.UP]=spr_char_chara_up;
 res_idle_sprite[DIR.DOWN]=spr_char_chara_down;

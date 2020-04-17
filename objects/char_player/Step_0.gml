@@ -8,7 +8,13 @@ if(can_move){
 	if(Input_IsHeld(INPUT.LEFT)){
 		move[DIR.LEFT]=2;
 	}else if(Input_IsHeld(INPUT.RIGHT)){
-		move[DIR.RIGHT]=2;
+		if(room=room_creepyhallway5){
+			//do absolutly nothing
+			//I caint spellz
+		}
+		else{
+			move[DIR.RIGHT]=2;
+		}
 	}
 	if(Input_IsPressed(INPUT.CONFIRM)){
 		var inst=noone;
@@ -38,6 +44,30 @@ if(can_move){
 }
 
 event_inherited();
+
+
+if(smiling=false){
+res_idle_sprite[DIR.UP]=spr_char_chara_up;
+res_idle_sprite[DIR.DOWN]=spr_char_chara_down;
+res_idle_sprite[DIR.LEFT]=spr_char_chara_right;
+res_idle_sprite[DIR.RIGHT]=spr_char_chara_right;
+res_move_sprite[DIR.UP]=spr_char_chara_up;
+res_move_sprite[DIR.DOWN]=spr_char_chara_down;
+res_move_sprite[DIR.LEFT]=spr_char_chara_right;
+res_move_sprite[DIR.RIGHT]=spr_char_chara_right;
+}
+if(smiling=true){
+res_idle_sprite[DIR.UP]=spr_char_chara_up;
+res_idle_sprite[DIR.DOWN]=spr_char_chara_dark_down;
+res_idle_sprite[DIR.LEFT]=spr_char_chara_dark_right;
+res_idle_sprite[DIR.RIGHT]=spr_char_chara_dark_right;
+res_move_sprite[DIR.UP]=spr_char_chara_up;
+res_move_sprite[DIR.DOWN]=spr_char_chara_dark_down;
+res_move_sprite[DIR.LEFT]=spr_char_chara_dark_right;
+res_move_sprite[DIR.RIGHT]=spr_char_chara_dark_right;
+}
+
+
 
 _light.x=x;
 _light.y=y-sprite_height/2;
