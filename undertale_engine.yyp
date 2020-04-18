@@ -2711,6 +2711,14 @@
             }
         },
         {
+            "Key": "6737cea8-d8b5-4646-939c-8355615b127c",
+            "Value": {
+                "id": "06d57a07-647d-4109-968f-264601b731e2",
+                "resourcePath": "sprites\\spr_fly\\spr_fly.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6792d67c-7bd1-412e-88c5-88ca2db8ee91",
             "Value": {
                 "id": "194d9887-ffe1-4d20-be3f-fd62c1ee7f85",
@@ -2884,6 +2892,14 @@
                 "id": "f7046b5d-e7be-41c4-aec2-4a0291509a4b",
                 "resourcePath": "scripts\\Lang_GetInfo\\Lang_GetInfo.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6dc17998-6ece-4cfb-9086-d1bee0065fa1",
+            "Value": {
+                "id": "750aa946-095e-4ff7-8a71-c26a39014f47",
+                "resourcePath": "sprites\\spr_trashbag\\spr_trashbag.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4503,6 +4519,14 @@
             }
         },
         {
+            "Key": "b040be47-c4c9-40ab-93b6-abbb3d6789ce",
+            "Value": {
+                "id": "0b8a9628-bc07-4ebe-bb99-d7ec0087acae",
+                "resourcePath": "objects\\fly\\fly.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b0b4d0d7-7bd9-4ffd-951b-0ed999727dcc",
             "Value": {
                 "id": "3fd67361-f27d-463f-9262-0f6e07472f8d",
@@ -4668,6 +4692,14 @@
                 "id": "7a5829c9-d030-4b1c-952b-e6ec027d09b8",
                 "resourcePath": "scripts\\BGM_SetVolume\\BGM_SetVolume.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b95b0dda-2e2d-4f6b-b051-1ea211ac2f57",
+            "Value": {
+                "id": "533c9e4b-3c3a-4a46-930e-0d299b174455",
+                "resourcePath": "objects\\hint_rainloop\\hint_rainloop.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -5916,14 +5948,6 @@
                 "id": "4c4fee97-9e6a-4f8e-a6fa-2fda52554f30",
                 "resourcePath": "scripts\\Battle_IsTurnValid\\Battle_IsTurnValid.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "e98be946-413e-4440-ac69-a67b504b162d",
-            "Value": {
-                "id": "bad48ef3-ae69-489f-9d05-d987fa9a1f0f",
-                "resourcePath": "rooms\\room_house_doors\\room_house_doors.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

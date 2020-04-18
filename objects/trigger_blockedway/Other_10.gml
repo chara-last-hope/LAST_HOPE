@@ -3,12 +3,12 @@
 
 // Inherit the parent event
 event_inherited();
-if(room=room_house_chara){
-	Dialog_Add(Lang_GetString("im.lazy"));
+if(room=room_town_0){
+	Dialog_Add(Lang_GetString("dialog.try.mountain"));
 	Dialog_Start();
 }
 else{
-	Dialog_Add(Lang_GetString("blocked.way"));
+	Dialog_Add(Lang_GetString("dialog.blocked.way"));
 	Dialog_Start();
 }
 ready=true

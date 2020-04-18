@@ -1,1 +1,0 @@
-mytext="That's all I've Done lol"

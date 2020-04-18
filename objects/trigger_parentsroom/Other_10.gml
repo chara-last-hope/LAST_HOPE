@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
-	Dialog_Add(Lang_GetString("parents.room"));
+	Dialog_Add(Lang_GetString("dialog.parents.room"));
 	Dialog_Start();
 
 ready=true

@@ -1,0 +1,11 @@
+if(distance_to_object(char_player)<50){
+	direction=random(360);
+	speed=5;
+	alarm[0]=100000
+	alarm[1]=100000
+	move_towards_point(myrandom,myrandom,speed)
+	deleteme=true
+}
+else{
+direction=random(360);
+}
