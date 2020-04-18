@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(Player_GetPlot()>=PLOT.CHARAUP){
-	instance_destroy()
-}else{
-	depth=-9999
-}
+// Inherit the parent event
+event_inherited();
+user_char=0
+ready=false

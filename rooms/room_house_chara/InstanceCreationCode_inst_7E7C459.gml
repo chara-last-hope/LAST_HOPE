@@ -1,1 +1,0 @@
-mydir=DIR.UP

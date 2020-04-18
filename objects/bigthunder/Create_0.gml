@@ -8,5 +8,4 @@ if(Player_GetPlot()>=PLOT.WAKETHUNDER){
 	
 	image_xscale=room_width
 	image_yscale=room_height
-	Player_SetPlot(PLOT.WAKETHUNDER)
 }

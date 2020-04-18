@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(Player_GetPlot()>=PLOT.CHARAUP){
+// Inherit the parent event
+event_inherited();
+if(Player_GetPlot()>=PLOT.STAIRCREAK){
 	instance_destroy()
-}else{
-	depth=-9999
 }

@@ -1,8 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-if(Player_GetPlot()>=PLOT.CHARAUP){
-	instance_destroy()
-}else{
-	depth=-9999
-}
+char_player.moveable=true
+Player_SetPlot(PLOT.STAIRCREAK)
+instance_destroy()
