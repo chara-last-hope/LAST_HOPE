@@ -3143,6 +3143,14 @@
             }
         },
         {
+            "Key": "783af4f2-cdd4-4531-a4e7-f8536a8ba72a",
+            "Value": {
+                "id": "36e02395-ca50-4113-b6e0-31eaf6ab5eab",
+                "resourcePath": "objects\\trigger_door\\trigger_door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "784ce4fe-7afb-474a-906e-cda2559e1961",
             "Value": {
                 "id": "9cc88d14-49e3-46e9-88d8-d9be1a21685d",
@@ -6380,6 +6388,22 @@
                 "id": "d03bcd52-f355-462f-bc94-3c1465de1ffb",
                 "resourcePath": "scripts\\Player_GetRoomName\\Player_GetRoomName.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f8351c7c-2c43-48b1-b4c6-d9ea901a1394",
+            "Value": {
+                "id": "90bc2ffb-74be-4567-bc21-681706b6d5cb",
+                "resourcePath": "sprites\\spr_door1_open\\spr_door1_open.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f8a0a94a-0786-436f-b291-11a4af8d13cd",
+            "Value": {
+                "id": "b2b36363-17dc-4cc2-a184-27476bce45e2",
+                "resourcePath": "sprites\\spr_bin\\spr_bin.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

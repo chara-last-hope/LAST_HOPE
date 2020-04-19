@@ -1,2 +1,2 @@
-target_room=room_house_living;
+target_room=room_house_backyard;
 target_landmark=0;
