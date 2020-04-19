@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "04365f2d-9e27-4b8d-b494-cfae61ad12c7",
+            "Value": {
+                "id": "2e9cb572-c310-4413-b068-517b1908f89c",
+                "resourcePath": "rooms\\room_town_1\\room_town_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0437d375-99c5-4546-8f5f-050efbce8e9e",
             "Value": {
                 "id": "7a52f5c7-8db7-481d-a865-f6705897528b",
@@ -2471,6 +2479,14 @@
             }
         },
         {
+            "Key": "5eebc43f-26bd-40b4-a601-9d0fdfe792c5",
+            "Value": {
+                "id": "8e24f86d-f9e1-45df-a71f-f264569c58c2",
+                "resourcePath": "sprites\\spr_flowers\\spr_flowers.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5f02c671-049e-49e4-9af0-729905f304f3",
             "Value": {
                 "id": "c6784c8a-7f60-4a30-865d-4e82b3863f1b",
@@ -2516,6 +2532,14 @@
                 "id": "95911f82-04aa-4e84-abaf-96b056f7b429",
                 "resourcePath": "views\\610ec7b8-be43-401c-a27a-9e163031616d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "61195b5b-6464-4aa4-bc38-0f6548c295a3",
+            "Value": {
+                "id": "c965a66b-5788-426e-beab-bb4371f71671",
+                "resourcePath": "tilesets\\tile_water21\\tile_water21.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -3347,6 +3371,14 @@
             "Value": {
                 "id": "2edc734b-59d0-48b9-9eb7-64f46ba32ad6",
                 "resourcePath": "sprites\\spr_glow_fly\\spr_glow_fly.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "804d033e-b71d-492e-aebd-f312fcf944a4",
+            "Value": {
+                "id": "139615c5-4ed4-48ad-aa93-fd99b5574e35",
+                "resourcePath": "sprites\\spr_tile_water21\\spr_tile_water21.yy",
                 "resourceType": "GMSprite"
             }
         },
