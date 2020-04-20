@@ -67,7 +67,9 @@ res_move_sprite[DIR.LEFT]=spr_char_chara_dark_right;
 res_move_sprite[DIR.RIGHT]=spr_char_chara_dark_right;
 }
 
-
+if(image_index=2 && inwater=1){
+	audio_play_sound(snd_splash,0,false);	
+}
 
 _light.x=x;
 _light.y=y-sprite_height/2;

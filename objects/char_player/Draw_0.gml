@@ -1,4 +1,10 @@
-draw_self();
+if(inwater = 1) {
+    draw_sprite_part_ext(sprite_index, image_index, 0, 0, sprite_width, sprite_height - 5, x, y-10, 1, 1, 16777215, image_alpha);
+    draw_sprite(spr_waterripple, 0, x +1, y);
+}
+else{
+	draw_self();
+}
 /*
 {
 	if(keyboard_check(vk_enter)){

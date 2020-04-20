@@ -7,6 +7,11 @@ if(room=room_town_0){
 	Dialog_Add(Lang_GetString("dialog.try.mountain"));
 	Dialog_Start();
 }
+else if(room=room_town_1){
+	Dialog_Add(Lang_GetString("dialog.try.ledge"));
+	Dialog_Start();
+}
+
 else{
 	Dialog_Add(Lang_GetString("dialog.blocked.way"));
 	Dialog_Start();

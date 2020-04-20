@@ -6,4 +6,3 @@ char_player.move[DIR.DOWN]=1
 char_player.move_speed[DIR.LEFT]=2
 char_bed.block_enabled = true
 instance_destroy()
-instance_destroy(obj_bedcovers)

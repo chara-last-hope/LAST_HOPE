@@ -7,3 +7,4 @@ if(Player_GetPlot()>=PLOT.CHARAUP){
 }else{
 	block_enabled = false
 }
+depth=5

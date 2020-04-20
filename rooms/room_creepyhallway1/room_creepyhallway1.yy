@@ -2,7 +2,7 @@
 {
     "name": "room_creepyhallway1",
     "id": "968eb0b6-90b0-4923-8c05-0a51f4d2197b",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

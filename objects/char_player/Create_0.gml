@@ -2,6 +2,7 @@ event_inherited();
 
 char_id=0;
 smiling=false
+inwater=0
 
 
 res_idle_sprite[DIR.UP]=spr_char_chara_up;

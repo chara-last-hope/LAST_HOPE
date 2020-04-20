@@ -17,3 +17,4 @@
 "dialog.parents.room"			"* I don't want to disturb them, &  especially when they're&  sleeping."
 "dialog.town.buildings"			"* Even after all these years,&  you remain impressed by the&  architecture of these buildings."
 "dialog.try.mountain"			"* No, {sleep 20}not there...{pause}{clear}* Not there yet..."
+"dialog.try.ledge"			"* The ledge is too steep to&  climb...{pause}{clear}* Maybe there's another way up?"
