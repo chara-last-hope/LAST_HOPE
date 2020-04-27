@@ -10,3 +10,10 @@ if(_ready&&!instance_exists(ui_dialog)){
 	}
 	_ready=false;
 }
+
+if(global.bedcover=1){
+	block_enabled = true
+	image_index=1
+}else{
+	block_enabled = false
+}

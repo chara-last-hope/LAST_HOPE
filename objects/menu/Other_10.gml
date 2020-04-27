@@ -6,7 +6,7 @@ if(_menu==0){
 		_inst_begin=instance_create_depth(50,400,0,text_typer);
 		_inst_begin.text=_prefix+"New Game";
 		_inst_settings=instance_create_depth(270,400,0,text_typer);
-		_inst_settings.text=_prefix+"Credits";
+		_inst_settings.text=_prefix+"Continue";
 		_inst_settings=instance_create_depth(465,400,0,text_typer);
 		_inst_settings.text=_prefix+"Settings";
 		with(text_typer){
@@ -114,4 +114,5 @@ if(_menu==3){
 	fader.color=c_black;
 	Fader_Fade(-1,1,240);
 	alarm[0]=240;
+	audio_sound_gain(mus_title,0,5000)
 }

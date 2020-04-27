@@ -11,3 +11,5 @@ if(Player_GetPlot()>=PLOT.CHARAUP){
 	alarm[0]=500
 	Fader_Fade(-1,-1,1,1)
 }
+
+global.bedcover=0

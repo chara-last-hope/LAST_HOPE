@@ -9,3 +9,7 @@ if(image_alpha>1){
 	
 	image_xscale=room_width
 	image_yscale=room_height
+	
+	if(Player_GetPlot()>=PLOT.WAKETHUNDER){
+	instance_destroy()
+}

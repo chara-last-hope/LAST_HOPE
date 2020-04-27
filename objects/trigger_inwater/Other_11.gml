@@ -5,3 +5,4 @@
 event_inherited();
 //alarm[0]=20
 _triggered=false;
+char_player.inwater=0

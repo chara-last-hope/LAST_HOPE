@@ -1,6 +1,8 @@
 "dialog.house.chara.cutscene"		"* No...&{sleep 30}* N-{sleep 20}no...{pause}{clear}* S-{sleep 20}stop...&{sleep 30}* {speed 8}STOP IT!{speed 2}{pause}{clear}* Let go of me...&{sleep 30}* I said, {sleep 20}let {sleep 20}GO!{pause}{clear}{effect 0}{script `Fader_Fade` 1 0 4 0}* AH!{pause}{clear}* M- {sleep 30}my...&{sleep 30}* My back...{pause}{clear}{effect -1}{voice -1}{speed 4}* (Weak sobs...)"
 "dialog.house.chara.lamp"		"* The lightbulb says,&  \"Enlighten me\"."
-"dialog.house.chara.drawer"		"* Inside the dresser is a single &  shirt and a pair of jeans...{pause}{clear}* Both are unfolded and messily&  stuffed in..."
+"dialog.house.parent.angry"		"* Hey Kid!&* You'd better not be awake in&  there!"
+"dialog.house.chara.drawer"		"* Inside the dresser is a single &  shirt and a pair of jeans...{pause}{clear}* There is also a black sweater...{pause}{clear}* Take the sweater?&&        {choice 0}Yes        {choice 1}No		{choice `TEMP`}"
+"dialog.house.chara.drawer1"		"* You took the sweater...&* You can put it on through the&  menu by pressing [C]!.
 "dialog.house.chara.cane"		"* A broken cane lays on the&  floor...{pause}{clear}* Suddenly, {sleep 20}the splinters in your&  back seem evermore painful..."
 "dialog.house.chara.bed.0"		"* Under the bed is a rusty&  carving knife...{pause}{clear}* It's too far under for you to&  reach..."
 "dialog.house.chara.bed.1"		"* Go to sleep?&&        {choice 0}Yes        {choice 1}No{choice `TEMP`}"
@@ -18,3 +20,4 @@
 "dialog.town.buildings"			"* Even after all these years,&  you remain impressed by the&  architecture of these buildings."
 "dialog.try.mountain"			"* No, {sleep 20}not there...{pause}{clear}* Not there yet..."
 "dialog.try.ledge"			"* The ledge is too steep to&  climb...{pause}{clear}* Maybe there's another way up?"
+"dialog.town.mtsign"			"* WARNING!&  UNKEPT MOUNTAIN TRAIL!{pause}{clear}* DO NOT CLIMB!&  * SERIOUS INJURY OR DEATH&  MAY RESULT...

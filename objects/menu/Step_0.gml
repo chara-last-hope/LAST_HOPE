@@ -1,5 +1,6 @@
 if(_menu==0){
 	if(_mode==0){
+		
 		if(Input_IsPressed(INPUT.RIGHT)){
 			if(_choice<1){
 				_choice=1;
@@ -20,6 +21,10 @@ if(_menu==0){
 		}
 	}
 }else if(_menu==1){
+	
+	instance_destroy(obj_menuchara)
+	instance_destroy(obj_logo)
+	
 	_update_naming=false;
 	if(_choice_naming==0){
 		if(Input_IsPressed(INPUT.RIGHT)){

@@ -1,0 +1,1 @@
+Player_SetName("Chara")

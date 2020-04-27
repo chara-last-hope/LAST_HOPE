@@ -1,6 +1,13 @@
 audio_play_sound(snd_appear,1,0)
 audio_play_sound(mus_title,1,1)
 audio_sound_gain(mus_title,0,0)
+/*if(!file_exists("/AppData/Local/undertale_engine/undertale_a_new_hope/info")){
+	_menu=1
+}
+else{
+	_menu=0
+}
+*/
 
 alarm[6]=50
 
@@ -12,6 +19,7 @@ _prefix="{gui true}{instant true}{shadow false}{font 1}{scale 2}";
 _inst_instruction=noone;
 _inst_begin=noone;
 _inst_settings=noone;
+_inst_credits=noone
 _inst_save_name=noone;
 _inst_save_lv=noone;
 _inst_save_time=noone;

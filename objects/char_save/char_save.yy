@@ -23,6 +23,26 @@
             "enumb": 0,
             "eventtype": 0,
             "m_owner": "ac0ce3c2-9a56-4701-94c1-a890bfff4a82"
+        },
+        {
+            "id": "a1095908-94d7-4798-bc3f-b6446e98d186",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 12,
+            "m_owner": "ac0ce3c2-9a56-4701-94c1-a890bfff4a82"
+        },
+        {
+            "id": "a0cbd0dd-038d-4a24-aad1-be875aab0798",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ac0ce3c2-9a56-4701-94c1-a890bfff4a82"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -35,11 +55,40 @@
     "physicsGroup": 0,
     "physicsKinematic": false,
     "physicsLinearDamping": 0.1,
-    "physicsObject": false,
+    "physicsObject": true,
     "physicsRestitution": 0.1,
     "physicsSensor": false,
     "physicsShape": 1,
-    "physicsShapePoints": null,
+    "physicsShapePoints": [
+        {
+            "id": "499c60d8-dcf3-40c4-b105-19b68dc70d72",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "ee35a241-497e-45d9-97dd-ba2019185249",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 20,
+            "y": 0
+        },
+        {
+            "id": "6da5ca75-2d7a-4734-9d1e-0f690d29c41e",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 20,
+            "y": 20
+        },
+        {
+            "id": "28a6face-fcb2-42a4-9a48-5ca44d0231d8",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 20
+        }
+    ],
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,

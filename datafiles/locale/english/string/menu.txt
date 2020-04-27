@@ -3,7 +3,7 @@
 "menu.continue"						"Continue"
 "menu.reset"						"Reset"
 "menu.reset.true"					"True Reset"
-"menu.naming.title"					"Name the fallen human."
+"menu.naming.title"					"Name the child."
 "menu.naming.quit"					"Quit"
 "menu.naming.backspace"				"Backspace"
 "menu.naming.done"					"Done"

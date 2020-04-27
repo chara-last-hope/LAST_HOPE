@@ -1,4 +1,7 @@
 event_inherited();
+_light=instance_create_depth(x,y,0,light_circle);
+_light.image_xscale=5;
+_light.image_yscale=5;
 
 var spd=1/3;
 res_idle_speed[0]=spd;
