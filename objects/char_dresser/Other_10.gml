@@ -1,11 +1,17 @@
 event_inherited();
 
-//if(Player_GetPlot()==PLOT.TRIED_GO_DOWNSTAIRS){
+	if(global._chargetjumper=false){
 	Dialog_Add(Lang_GetString("dialog.house.chara.drawer"));
 	_ready=true;
 	char_player.moveable=false;
-/*}else{
-	Dialog_Add(Lang_GetString("dialog.house.chara.bed.0"));
-}
-*/
-Dialog_Start();
+	Dialog_Start();
+	}
+
+ if(global._chargetjumper=true)
+	{
+		Dialog_Add(Lang_GetString("dialog.house.chara.drawer2"));
+		Dialog_Start()
+		char_player.moveable=true;
+		
+	}
+

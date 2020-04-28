@@ -1,6 +1,6 @@
 if(inwater = 1) {
     draw_sprite_part_ext(sprite_index, image_index, 0, 0, sprite_width, sprite_height - 5, x-10, y-30, 1, 1, 16777215, image_alpha);
-    draw_sprite(spr_waterripple, 0, x +1, y-30);
+    draw_sprite(spr_waterripple, 0, x -10, y-30);
 }
 else{
 	draw_self();

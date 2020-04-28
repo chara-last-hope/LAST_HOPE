@@ -11,9 +11,18 @@ if(_ready&&!instance_exists(ui_dialog)){
 	_ready=false;
 }
 
+if(Player_GetPlot()>=PLOT.CHARAUP){
+	image_index=1
+	block_enabled = true
+}else{
+	image_index=0
+	block_enabled = false
+}
+
 if(global.bedcover=1){
 	block_enabled = true
 	image_index=1
 }else{
 	block_enabled = false
+	image_index=0
 }

@@ -1,0 +1,1 @@
+global._chargetjumper=true

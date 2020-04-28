@@ -1,0 +1,1 @@
+mytext="{speed 0.03} {effect 0} Who do you think you are?"

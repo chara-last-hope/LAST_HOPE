@@ -13,3 +13,5 @@ if(Player_GetPlot()>=PLOT.CHARAUP){
 }
 
 global.bedcover=0
+
+faster=false

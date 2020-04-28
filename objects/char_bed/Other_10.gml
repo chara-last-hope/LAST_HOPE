@@ -8,3 +8,4 @@ if(Player_GetPlot()==PLOT.TRIED_GO_DOWNSTAIRS){
 	Dialog_Add(Lang_GetString("dialog.house.chara.bed.0"));
 }
 Dialog_Start();
+
