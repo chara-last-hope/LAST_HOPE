@@ -7,7 +7,7 @@ text_typer._voice=0
 if(slide=1){
 	if(typing=true){
 		var inst=instance_create_depth(x,y,depth,text_typer);
-		var inst1=instance_create_depth(x,y+40,depth,text_typer);
+		var inst1=instance_create_depth(x,y+30,depth,text_typer);
 		inst.text="{speed 5}With every person,{sleep 20} there's a story...&{sleep 50}Be it one of hope, {sleep 20}or of despair..."
 		typing=false
 		text_typer._voice=0
@@ -66,6 +66,6 @@ if(slide=6){
 		if(slide=8){
 			
 			}
-		}
+		
 		
 		if(slide=9){room_goto(room_logo)}
