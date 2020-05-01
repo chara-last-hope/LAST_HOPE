@@ -12,7 +12,7 @@ mydraw=0
 alarm[1]=0
 
 //float
-anchorY = 80;
+anchorY = y;
 frequency = 0.05;
-amplitude = 2;
+amplitude = 1;
 timer = 0;

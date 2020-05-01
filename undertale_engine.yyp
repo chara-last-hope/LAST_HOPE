@@ -4103,14 +4103,6 @@
             }
         },
         {
-            "Key": "90da888f-2fa8-4ada-adef-fa6666773b63",
-            "Value": {
-                "id": "071ddf29-c736-46cd-b252-12017f2aa2c9",
-                "resourcePath": "objects\\obj_FinalWriter\\obj_FinalWriter.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "92268b37-1201-4883-a842-9eb9f902559e",
             "Value": {
                 "id": "d2a44a77-93ce-41f3-9bed-1fdb9a9624d0",
@@ -4420,6 +4412,14 @@
                 "id": "9f2b0562-51d0-4b2f-b328-d2c0d1345a2f",
                 "resourcePath": "scripts\\Object_GetBaseParent\\Object_GetBaseParent.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9d5c6e75-6d87-4f34-8bcd-b596f367bb21",
+            "Value": {
+                "id": "201f3550-a8d9-415d-8bf4-6c85a7daeccc",
+                "resourcePath": "objects\\trigger_treenasty\\trigger_treenasty.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -5047,6 +5047,14 @@
             }
         },
         {
+            "Key": "ba3334b9-6440-4274-8e2a-8b89a2893176",
+            "Value": {
+                "id": "7e361751-e8c2-4f29-9bac-9520b3e1c58d",
+                "resourcePath": "objects\\grass1\\grass1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ba82cf34-2df4-4125-8a09-7dd4ba11d595",
             "Value": {
                 "id": "0cfcbb6e-91c9-441a-b336-7e6cd35e871f",
@@ -5139,6 +5147,14 @@
             "Value": {
                 "id": "bf777ba6-501d-4ffd-ace3-5e24632b055b",
                 "resourcePath": "sprites\\spr_tile_villiage\\spr_tile_villiage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bd3eedcc-7b80-4a08-8f99-7d29e97c840b",
+            "Value": {
+                "id": "71736402-0692-4ceb-8c8c-c90bbff1e09c",
+                "resourcePath": "sprites\\spr_grass1\\spr_grass1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5324,6 +5340,14 @@
                 "id": "bea97184-131f-4655-ab23-b5a04a2b7978",
                 "resourcePath": "objects\\grass\\grass.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c36c3f9d-4250-4375-83d8-aee6e9f401af",
+            "Value": {
+                "id": "d4a5244d-1680-4244-a76b-1b4c069afc9a",
+                "resourcePath": "sprites\\spr_nastytree\\spr_nastytree.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -6316,14 +6340,6 @@
                 "id": "17ad22c1-d7f3-450d-9c8c-2b2d5bf54e15",
                 "resourcePath": "sprites\\spr_bg_area_1\\spr_bg_area_1.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e8c92bfc-2201-4e53-91fb-a8feba59f0d0",
-            "Value": {
-                "id": "9bb030e2-0663-4eac-bff6-63f53ca593cd",
-                "resourcePath": "objects\\cont1\\cont1.yy",
-                "resourceType": "GMObject"
             }
         },
         {

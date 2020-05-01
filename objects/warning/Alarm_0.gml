@@ -7,7 +7,7 @@ Fader_Fade(1,0,50,0)
 instance_destroy(text_typer)
 typing=true
 
-if(slide=3){
-	var inst=instance_create_depth(x+15,y,depth,text_typer);
-	inst.text="{speed 2}Still here, Huh?"
+if(slide>3){
+	var inst=instance_create_depth(x+20,y,depth,text_typer);
+		inst.text="{speed 2}Still here, huh?"
 }
