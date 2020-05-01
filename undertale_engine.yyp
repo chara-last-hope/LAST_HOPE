@@ -4103,6 +4103,14 @@
             }
         },
         {
+            "Key": "90da888f-2fa8-4ada-adef-fa6666773b63",
+            "Value": {
+                "id": "071ddf29-c736-46cd-b252-12017f2aa2c9",
+                "resourcePath": "objects\\obj_FinalWriter\\obj_FinalWriter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "92268b37-1201-4883-a842-9eb9f902559e",
             "Value": {
                 "id": "d2a44a77-93ce-41f3-9bed-1fdb9a9624d0",
