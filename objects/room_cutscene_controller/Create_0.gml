@@ -12,6 +12,6 @@ if(Player_GetPlot()>=PLOT.CHARAUP){
 	Fader_Fade(-1,-1,1,1)
 }
 
-global.bedcover=0
+//global.bedcover=0
 
 faster=false

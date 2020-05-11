@@ -3,4 +3,5 @@
 slide=0
 alarm[0]=10
 typing=false
-BGM_Play(0,mus_audiostory,1)
+BGM_Play(0,snd_rainloop01,1)
+global.bedcover=0

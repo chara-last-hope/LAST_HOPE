@@ -1,7 +1,10 @@
 _time=0;
 _frame_skip=0;
-
+fileval=0
 global.thunderdone=false
+global._chargetjumper=false
+gotjumper=false
+
 /*if(Player_GetPlot()>=PLOT.START){
 	room_goto(room_menu)
 }

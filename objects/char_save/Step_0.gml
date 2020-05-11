@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 _light.x=x;
-_light.y=y;
+_light.y=y-10;

@@ -33,7 +33,7 @@ BGM_Init();
 Dialog_Init();
 
 Demo_Init();
-
+alarm[0]=100
 instance_create_depth(0,0,0,camera);
 instance_create_depth(0,0,0,fader);
 instance_create_depth(0,0,0,border);
@@ -51,6 +51,3 @@ Console_OutputLine("Game Author: "+GAME_AUTHOR);
 Console_OutputLine("Game Version: "+GAME_VERSION);
 Console_OutputLine("Game GUID: "+GAME_GUID);
 
-//show_debug_overlay(true);
-
-room_goto_next();

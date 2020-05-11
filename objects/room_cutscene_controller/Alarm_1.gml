@@ -4,5 +4,9 @@ Player_SetPlot(PLOT.CHARAUP)
 char_player.moveable=true
 char_player.move[DIR.DOWN]=1
 char_player.move_speed[DIR.LEFT]=2
+with(char_bed){
 char_bed.block_enabled = true
+}
+
+
 instance_destroy()

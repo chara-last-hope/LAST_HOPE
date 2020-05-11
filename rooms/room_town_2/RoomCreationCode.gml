@@ -1,0 +1,2 @@
+Player_GetRoomName(room_town_2)
+global.biglightning=true

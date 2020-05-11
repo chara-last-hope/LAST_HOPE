@@ -39,8 +39,15 @@ if(can_move){
 	}
 	if(!instance_exists(ui_dialog)){
 		if(Input_IsPressed(INPUT.MENU)){
+		alarm[1]=20
+	}
+		if(Input_IsReleased(INPUT.MENU)){
+			if(!instance_exists(ui_settings)){
 			instance_create_depth(0,0,0,ui_menu);
+			}
+			alarm[1]=0
 		}
+		
 	}
 }
 
@@ -68,7 +75,7 @@ res_move_sprite[DIR.LEFT]=spr_char_chara_dark_right;
 res_move_sprite[DIR.RIGHT]=spr_char_chara_dark_right;
 }
 
-if(image_index=2 && inwater=1){
+if(image_index=1 && inwater=1){
 	audio_play_sound(snd_splash,0,false);	
 }
 

@@ -1,11 +1,13 @@
 event_inherited();
-global._chargetjumper = false
+
 block_enabled = false
 dir_locked=true;
 _ready=false;
 image_index=0
 image_speed=0
 alarm[0]=99999999
+	
+	
 //woa thats big
 /*if(Player_GetPlot()>=PLOT.CHARAUP){
 	block_enabled = true

@@ -1,0 +1,16 @@
+/// @description Insert description here
+// You can write your code in this editor
+draw_set_color(c_white)
+				draw_set_alpha((1 * specfade))
+                draw_text(wx, wy, string_hash_to_newline(mychar))
+                draw_set_alpha(((0.3 + (sin((siner / 14)) * 0.1)) * specfade))
+                draw_text((wx + 1), wy, string_hash_to_newline(mychar))
+                draw_text((wx - 1), wy, string_hash_to_newline(mychar))
+                draw_text(wx, (wy + 1), string_hash_to_newline(mychar))
+                draw_text(wx, (wy - 1), string_hash_to_newline(mychar))
+                draw_set_alpha(((0.08 + (sin((siner / 14)) * 0.04)) * specfade))
+                draw_text((wx + 1), (wy + 1), string_hash_to_newline(mychar))
+                draw_text((wx - 1), (wy - 1), string_hash_to_newline(mychar))
+                draw_text((wx - 1), (wy + 1), string_hash_to_newline(mychar))
+                draw_text((wx + 1), (wy - 1), string_hash_to_newline(mychar))
+                draw_set_alpha(1)

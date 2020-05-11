@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_introtile",
     "eventList": [
-        
+        {
+            "id": "a56e520e-b8a4-40a9-b872-04b028569d5b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3028ba6f-0611-4a2e-ba9e-7630c57b7512"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

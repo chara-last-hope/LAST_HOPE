@@ -32,17 +32,31 @@ if(slide=1){
 		}
 			
 			if(slide=4){
-			if(typing=true){
-				y=169
-				instance_create_depth(35,20,0,obj_introtile)
-				obj_introtile.image_index=0
-		BGM_Resume(0)
-		var inst=instance_create_depth(x+10,y,depth,text_typer);
-		inst.text="{speed 3}Many years after {color yellow}THE WAR&between the HUMANS and MONSTERS...&{sleep 50}A legend emerged..."
-		typing=false
-		text_typer._voice=0
+				if(Player_GetPlot()>=PLOT.CHARAJUMPINTRO){
+					//play full intro after chara jumps
+					if(typing=true){
+						y=169
+						instance_create_depth(35,20,0,obj_introtile)
+						obj_introtile.image_index=0
+						BGM_Resume(0)
+						var inst=instance_create_depth(x+10,y,depth,text_typer);
+						inst.text="{speed 3}Many years after THE WAR&between the HUMANS and MONSTERS...&{sleep 50}A legend emerged..."
+						typing=false
+						text_typer._voice=0
+						}
+				}
+				
+				else
+			{
+				room_goto(room_house_chara)	
+				Player_SetPlot(PLOT.SLEPT)
+				BGM_Stop(0)
 			}
-			}
+				
+		}
+			
+			
+			
 			
 			if(slide=5){
 			if(typing=true){
@@ -62,13 +76,25 @@ if(slide=6){
 		
 		if(slide=7){
 			if(typing=true){
-		
+				//Begins to jump
 			}
 		}
 		
 		if(slide=8){
+			//Fully jumps
+			}
+			
+			if(slide=9){
 			
 			}
+			
+			if(slide=10){
+			
+			}
+			
+			
 		
 		
-		if(slide=11){room_goto(room_logo)}
+		if(slide=11){room_goto(room_logo)
+			Player_SetPlot(PLOT.SLEPT)
+}

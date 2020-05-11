@@ -1,4 +1,4 @@
-Flag_Set(FLAG_TYPE.STATIC,FLAG_STATIC.NAME,"PLAYER");
+Flag_Set(FLAG_TYPE.STATIC,FLAG_STATIC.NAME,"Chara");
 Flag_Set(FLAG_TYPE.STATIC,FLAG_STATIC.LV,1);
 Flag_Set(FLAG_TYPE.STATIC,FLAG_STATIC.HP_MAX,20);
 Flag_Set(FLAG_TYPE.STATIC,FLAG_STATIC.HP,20);
@@ -23,6 +23,5 @@ Flag_Set(FLAG_TYPE.TEMP,FLAG_TEMP.TRIGGER_WARP_LANDMARK,noone);
 Flag_Set(FLAG_TYPE.TEMP,FLAG_TEMP.TRIGGER_WARP_DIR,-1);
 
 Flag_Set(FLAG_TYPE.STATIC,FLAG_STATIC.FUN,irandom(100));
-Item_SetWeapon(item_stick);
-Item_SetArmor(item_bandage);
-Item_Add(item_tml);
+Item_SetWeapon(noone);
+Item_SetArmor(noone);

@@ -22,5 +22,5 @@ if(instance_exists(char_player)){
 		draw_sprite_ext(sprite,char_player.image_index,char_player.x-x,char_player.y-y,char_player.image_xscale,-char_player.image_yscale,0,c_white,0.4);
 	}surface_reset_target();
 	draw_surface(_surface1,x,y);
-	draw_sprite(spr_reflect_puddle, 0, x, y);
+	draw_sprite(spr_reflect_puddle1, 0, x, y);
 }
