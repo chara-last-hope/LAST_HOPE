@@ -48,3 +48,4 @@ else
 	{
 	global._chargetjumper=false
 }
+Player_SetName("Chara")

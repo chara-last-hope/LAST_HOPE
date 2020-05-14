@@ -1,1 +1,1 @@
-text="* Ricky...{pause}{clear}* I asked for help...{pause}{clear}* But nobody came...";
+text="* RickyG...{pause}{clear}* I asked for help...{pause}{clear}* But nobody came...";
