@@ -4,7 +4,30 @@ if(instance_exists(text_typer)){
 text_typer._voice=0
 }
 
-if(_ah=0){
+if(Input_IsPressed(INPUT.CONFIRM)){
+	if(global.ah=false){
+	if(slide==5){
+			
+				Fader_Fade(0,1,50,0)
+				alarm[1]=100
+				
+			
+		
+}
+	}else if(global.ah=true){
+		if(slide==4){
+		Fader_Fade(0,1,50,0)
+				alarm[1]=100
+	}
+	}
+else
+{
+	alarm[0]=10
+	}
+}
+
+
+if(global.ah=false){
 
 if(slide=1){
 	if(typing=true){
@@ -59,7 +82,7 @@ if(slide=1){
 			
 }
 }
-if(_ah=1){
+if(global.ah=true){
 	if(slide=1){
 	if(typing=true){
 		var inst=instance_create_depth(x,y,depth,text_typer);

@@ -10,7 +10,7 @@ typing=true
 if(slide>6){
 		var inst=instance_create_depth(x+20,y,depth,text_typer);
 		inst.text="{speed 2}Still here, huh?"
-		_ah=1
+		global.ah=1
 		slide=0
 		alarm[0]=500
 }

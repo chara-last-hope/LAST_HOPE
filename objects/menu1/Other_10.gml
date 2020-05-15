@@ -1,18 +1,49 @@
 ///@desc Menu Switch
 if(_menu==0){
+	_mode=file_exists(Flag_GetSavePath(FLAG_TYPE.INFO));
 	if(_mode==0){
-		_inst_instruction=instance_create_depth(170,40,0,text_typer);
-		//_inst_instruction.text=_prefix+"{color_text `gray_light`} --- Instruction ---{space_y -1}&&{space_y 2}[Z or ENTER] - Confirm&[X or SHIFT] - Cancel&[C or CTRL] - Menu (In-game)&[F4] - Fullscreen&[Hold ESC] - Quit&When HP is 0, you lose.";
-		_inst_begin=instance_create_depth(NG,400,0,text_typer);
-		_inst_begin.text=_prefix+"New Game";
-		_inst_settings=instance_create_depth(C,400,0,text_typer);
-		_inst_settings.text=_prefix+"Continue";
-		_inst_settings2=instance_create_depth(465,400,0,text_typer);
-		_inst_settings2.text=_prefix+"Settings";
+		_inst_instruction=instance_create_depth(90,50,0,text_typer);
+		_inst_instruction.text=_prefix+"Select Language:";
+		_inst_begin=instance_create_depth(225,160,0,text_typer);
+		_inst_begin.text=_prefix+"English (ENG)";
+		_inst_settings=instance_create_depth(225,200,0,text_typer);
+		_inst_settings.text=_prefix+"Chinese (zh-Hant)";
+		_inst_settings2=instance_create_depth(225,240,0,text_typer);
+		_inst_settings2.text=_prefix+"Russian (RU)";
+		if(ah=true){
+		_inst_settings3=instance_create_depth(225,280,0,text_typer);
+		_inst_settings3.text=_prefix+"ah (ah)";
+		
+		}
+	//	alarm[9]=600
 		with(text_typer){
 			event_user(15);
 		}
 		event_user(2);
+	}else{
+		Flag_Load(FLAG_TYPE.INFO);
+		_inst_name=instance_create_depth(140,124,0,text_typer);
+		_inst_name.text=_prefix+Flag_Get(FLAG_TYPE.INFO,FLAG_INFO.NAME,Lang_GetString("ui.save.name.empty"));
+		_inst_lv=instance_create_depth(308,124,0,text_typer);
+		_inst_lv.text=_prefix+"LV "+string(Flag_Get(FLAG_TYPE.INFO,FLAG_INFO.LV));
+		_inst_time=instance_create_depth(452,124,0,text_typer);
+		var time=Flag_Get(FLAG_TYPE.INFO,FLAG_INFO.TIME);
+		var minute=time div 60;
+		var second=time mod 60;
+		_inst_time.text=_prefix+string(minute)+":"+(second<10 ? "0" : "")+string(second);
+		_inst_room=instance_create_depth(140,160,0,text_typer);
+		_inst_room.text=_prefix+Player_GetRoomName(Flag_Get(FLAG_TYPE.INFO,FLAG_INFO.ROOM));
+		_inst_continue=instance_create_depth(170,210,0,text_typer);
+		_inst_continue.text=_prefix+Lang_GetString("menu.continue");
+		_inst_continue.override_color_text_enabled=true;
+		_inst_reset=instance_create_depth(390,210,0,text_typer);
+		_inst_reset.text=_prefix+Lang_GetString("menu.reset");
+		_inst_reset.override_color_text_enabled=true;
+		_inst_settings=instance_create_depth(264,250,0,text_typer);
+		_inst_settings.text=_prefix+Lang_GetString("menu.settings");
+		_inst_settings.override_color_text_enabled=true;
+		event_user(2);
+		
 	}
 }else{
 	if(instance_exists(_inst_instruction)){
@@ -24,26 +55,23 @@ if(_menu==0){
 	if(instance_exists(_inst_settings)){
 		instance_destroy(_inst_settings);
 	}
-	if(instance_exists(_inst_save_name)){
-		instance_destroy(_inst_save_name);
+	if(instance_exists(_inst_name)){
+		instance_destroy(_inst_name);
 	}
-	if(instance_exists(_inst_save_lv)){
-		instance_destroy(_inst_save_lv);
+	if(instance_exists(_inst_lv)){
+		instance_destroy(_inst_lv);
 	}
-	if(instance_exists(_inst_save_time)){
-		instance_destroy(_inst_save_time);
+	if(instance_exists(_inst_time)){
+		instance_destroy(_inst_time);
 	}
-	if(instance_exists(_inst_save_room)){
-		instance_destroy(_inst_save_room);
+	if(instance_exists(_inst_room)){
+		instance_destroy(_inst_room);
 	}
-	if(instance_exists(_inst_save_continue)){
-		instance_destroy(_inst_save_continue);
+	if(instance_exists(_inst_continue)){
+		instance_destroy(_inst_continue);
 	}
-	if(instance_exists(_inst_save_reset)){
-		instance_destroy(_inst_save_reset);
-	}
-	if(instance_exists(_inst_save_settings)){
-		instance_destroy(_inst_save_settings);
+	if(instance_exists(_inst_reset)){
+		instance_destroy(_inst_reset);
 	}
 }
 
@@ -90,6 +118,9 @@ if(_menu==2){
 	_confirm_name_x=280;
 	_confirm_name_y=110;
 	_confirm_name_scale=2;
+	Anim_Destroy(self,"_confirm_name_x");
+	Anim_Destroy(self,"_confirm_name_y");
+	Anim_Destroy(self,"_confirm_name_scale");
 	Anim_Create(self,"_confirm_name_x",0,0,280,-80,270);
 	Anim_Create(self,"_confirm_name_y",0,0,110,120,270);
 	Anim_Create(self,"_confirm_name_scale",0,0,2,5,270);
@@ -111,8 +142,7 @@ if(_menu==2){
 }
 
 if(_menu==3){
-	fader.color=c_black;
+	fader.color=c_white;
 	Fader_Fade(-1,1,240);
 	alarm[0]=240;
-	audio_sound_gain(mus_title,0,5000)
 }

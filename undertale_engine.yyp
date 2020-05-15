@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "07f5542b-95fb-496b-a098-b421ca5dd453",
+            "Value": {
+                "id": "9cfcfd12-da6f-4110-929f-ee8486ff3720",
+                "resourcePath": "scripts\\Player_Load\\Player_Load.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "080c8a8e-1ac7-4ab7-8ff1-c306e2455232",
             "Value": {
                 "id": "62ee3bdb-3616-413c-9d1f-a0c2cc3aa952",
@@ -1540,6 +1548,14 @@
                 "id": "fbbf282e-e143-4009-99e9-d6cf4edea89e",
                 "resourcePath": "scripts\\Macro_Game\\Macro_Game.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "358638ac-b3df-4199-952b-cbfb18546dde",
+            "Value": {
+                "id": "25e4e290-ee73-448d-912a-6abf3764374b",
+                "resourcePath": "objects\\menu1\\menu1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3611,6 +3627,14 @@
             "Value": {
                 "id": "9cc88d14-49e3-46e9-88d8-d9be1a21685d",
                 "resourcePath": "scripts\\BGM_Resume\\BGM_Resume.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "78eb2428-ffd4-4cbd-95c5-3921bf9e2964",
+            "Value": {
+                "id": "fc634076-4a6f-47a2-bfb4-8f7730dc9b62",
+                "resourcePath": "scripts\\Player_Save\\Player_Save.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -7738,6 +7762,8 @@
         "8a98a566-fba1-4513-8c37-551243c24851",
         "1fbb1f81-9d8e-4b69-a7d0-0737937996c9",
         "d6528e52-b252-4e7f-b035-3f4f8d18f93e",
+        "78eb2428-ffd4-4cbd-95c5-3921bf9e2964",
+        "07f5542b-95fb-496b-a098-b421ca5dd453",
         "9f8cca73-7064-4df7-a0d9-183eb8469fd9",
         "73f3215e-7994-434d-b78f-77ff4f280a80",
         "c1099f20-0cfa-4dfd-9b77-8af3d002680f",
