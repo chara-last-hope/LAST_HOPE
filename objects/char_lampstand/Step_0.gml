@@ -5,7 +5,7 @@
 event_inherited();
 
 if(_activated = 1 && _created=false){
-	instance_create_depth(x+5,y,0,light_circle1);
+	instance_create_depth(x+10,y,0,light_circle1);
 	_created = true
 }
 
