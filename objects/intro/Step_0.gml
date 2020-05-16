@@ -32,7 +32,7 @@ if(slide=1){
 		}
 			
 			if(slide=4){
-				if(Player_GetPlot()>=PLOT.CHARAJUMPINTRO){
+				if(global.exists=1){
 					//play full intro after chara jumps
 					if(typing=true){
 						y=169
@@ -95,6 +95,12 @@ if(slide=6){
 			
 		
 		
-		if(slide=11){room_goto(room_logo)
+		if(slide=11){
+			if(global.exists=1){
+				room_goto(room_menu)
+			}
+			else{
 			Player_SetPlot(PLOT.SLEPT)
+			room_goto(room_logo)
+			}
 }

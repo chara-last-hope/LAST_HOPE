@@ -59,7 +59,9 @@ if(_menu==0){
 			}
 			}else if(global.exists=1){
 			if(_choice==1){
-				room_goto_next()
+				file_delete(Flag_GetSavePath(FLAG_TYPE.INFO));
+				global.exists=0
+				game_restart()
 				
 				event_user(0);
 			}

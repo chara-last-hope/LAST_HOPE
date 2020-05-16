@@ -3,7 +3,7 @@
 var choice=Player_GetTextTyperChoice();
 if(choice==0){
 	
-				room_goto_next()
+				room_goto(room_logo1)
 			}
 		else
 			{

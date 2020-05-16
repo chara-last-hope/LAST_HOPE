@@ -2,7 +2,7 @@
 if(_menu==0){
 	_mode=file_exists(Flag_GetSavePath(FLAG_TYPE.INFO));
 	if(_mode==0){
-		_inst_instruction=instance_create_depth(90,50,0,text_typer);
+		_inst_instruction=instance_create_depth(180,100,0,text_typer);
 		_inst_instruction.text=_prefix+"Select Language:";
 		_inst_begin=instance_create_depth(225,160,0,text_typer);
 		_inst_begin.text=_prefix+"English (ENG)";
