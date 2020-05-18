@@ -42,15 +42,17 @@ if(_menu==0){
 		}else if(Input_IsPressed(INPUT.CONFIRM)){
 			if(global.exists=0){
 			if(_choice==0){
+				BGM_Stop(0)
 				room_goto_next()
-				
 				event_user(0);
 			}
 			if(_choice==1){
 				Player_Load(0);
 				var target=Flag_Get(FLAG_TYPE.STATIC,FLAG_STATIC.ROOM,-1);
 				if(room_exists(target)){
+					BGM_Stop(0)
 					room_goto(target);
+					BGM_Stop(0)
 				}else{
 					show_message("ERROR:\nAttempt to goto an unexisting room "+string(target));
 				}
@@ -69,7 +71,9 @@ if(_menu==0){
 				Player_Load(0);
 				var target=Flag_Get(FLAG_TYPE.STATIC,FLAG_STATIC.ROOM,-1);
 				if(room_exists(target)){
+					BGM_Stop(0)
 					room_goto(target);
+					
 				}else{
 					show_message("ERROR:\nAttempt to goto an unexisting room "+string(target));
 				}

@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(Player_GetPlot()>=PLOT.CHARAJUMPINTRO){
-alarm[0]=610
-}
+if(global.exists=1){
+		alarm[0]=420
+	}
+
 else{
 	alarm[0]=650
 }

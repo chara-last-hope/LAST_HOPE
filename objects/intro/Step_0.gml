@@ -69,7 +69,7 @@ if(slide=1){
 if(slide=6){
 			if(typing=true){
 				var inst=instance_create_depth(x+10,y,depth,text_typer);
-				inst.text="{speed 5}It told that those who climb the&face of the mountain are never&to return..."
+				inst.text="{speed 3}It told that those who climb the&face of the mountain are never&to return..."
 				typing=false
 			}
 		}
@@ -98,6 +98,7 @@ if(slide=6){
 		if(slide=11){
 			if(global.exists=1){
 				room_goto(room_menu)
+				BGM_Stop(0)
 			}
 			else{
 			Player_SetPlot(PLOT.SLEPT)

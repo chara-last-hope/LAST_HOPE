@@ -7,7 +7,7 @@ global.bedcover=0
 
 if(global.exists=1){
 	slide=4
-	BGM_Play(0,mus_audiostory,1)
+	BGM_Play(0,mus_audiostory,0)
 	typing=true
 	alarm[0]=650
 }

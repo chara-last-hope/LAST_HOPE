@@ -3,7 +3,7 @@
 alarm[0]=irandom(1500)
 global.biglightning=false
 if(room=room_logo1){
-if(Player_GetPlot()>=PLOT.CHARAJUMPINTRO){
-	instance_destroy()
-}
+if(global.exists=1){
+		instance_destroy()
+	}
 }

@@ -1,6 +1,7 @@
 audio_play_sound(snd_appear,1,0)
-audio_play_sound(mus_title,1,1)
-audio_sound_gain(mus_title,0,0)
+//audio_play_sound(mus_title,1,1)
+BGM_Play(0,mus_title,1)
+//audio_sound_gain(mus_title,0,0)
 /*if(!file_exists("/AppData/Local/undertale_engine/undertale_a_new_hope/info")){
 	_menu=1
 }
