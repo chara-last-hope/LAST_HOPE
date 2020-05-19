@@ -4,7 +4,7 @@ hue = irandom(255);
     hue_shift = 0;
 xxspeed= 0.5;
 yyspeed= 0.25;
-if(room=room_logo1){image_alpha= 0.05;}
+if(room=room_logo1){image_alpha= 0.10;}
 else
 {
 image_alpha= 0.15;
