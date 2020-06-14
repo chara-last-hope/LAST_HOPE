@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(slide==5){
-			
+			zpressed=true
 			if(zpressed=false){
 				Fader_Fade(0,1,50,0)
 				alarm[1]=100

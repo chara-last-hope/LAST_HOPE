@@ -49,3 +49,5 @@ else
 	global._chargetjumper=false
 }
 Player_SetName("Chara")
+
+if(room=room_town_dock){global.biglightning=true}

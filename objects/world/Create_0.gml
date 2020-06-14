@@ -3,6 +3,7 @@ _frame_skip=0;
 fileval=0
 global.thunderdone=false
 global._chargetjumper=false
+global.flowerscene=0
 gotjumper=false
 
 /*if(Player_GetPlot()>=PLOT.START){

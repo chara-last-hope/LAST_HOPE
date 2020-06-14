@@ -1,2 +1,2 @@
-target_room=room_town_0;
-target_landmark=5;
+target_room=room_town_2;
+target_landmark=6;

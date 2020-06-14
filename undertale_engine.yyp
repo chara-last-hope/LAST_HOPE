@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "135bbf27-7c2a-434d-9b42-1b7c496d1fef",
+            "Value": {
+                "id": "ab0b6bfc-b873-452a-b2b8-26cee8cffe93",
+                "resourcePath": "sprites\\spr_coin\\spr_coin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "13fd779b-390a-41d6-8cc9-7caa6e0210e4",
             "Value": {
                 "id": "0b1e3a2a-535b-42c3-a67a-bb29df126be8",
@@ -3935,6 +3943,14 @@
             }
         },
         {
+            "Key": "82207c8b-a1a0-4507-9a63-bbefbe5b4fc1",
+            "Value": {
+                "id": "73ee5150-315d-441f-93c5-b7fe1cb08455",
+                "resourcePath": "sprites\\spr_lightray\\spr_lightray.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "823a7a69-e132-45c9-9d44-55e96e708ee6",
             "Value": {
                 "id": "cc0aa9c5-cb75-4b0a-b9e1-12876d13bc4b",
@@ -4348,6 +4364,14 @@
                 "id": "427ac447-fb27-4e39-9f35-6a0a822a352e",
                 "resourcePath": "scripts\\Anim_IsExists\\Anim_IsExists.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8de0a6b9-a883-4246-a0b1-569a59a01dbb",
+            "Value": {
+                "id": "ef620b12-e4bb-4c68-bc2b-2ba29931d88c",
+                "resourcePath": "objects\\obj_can\\obj_can.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -5212,6 +5236,14 @@
                 "id": "0b8a9628-bc07-4ebe-bb99-d7ec0087acae",
                 "resourcePath": "objects\\fly\\fly.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b0613b74-9854-4291-89b6-4efa442ea204",
+            "Value": {
+                "id": "a00b7eed-2251-4897-8146-9c8f2d8ee1ac",
+                "resourcePath": "sprites\\spr_cans1\\spr_cans1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -6503,11 +6535,27 @@
             }
         },
         {
+            "Key": "db69134c-970a-479b-bd2d-f432516cac63",
+            "Value": {
+                "id": "474d8983-04a8-4a1d-800e-002d7654612f",
+                "resourcePath": "objects\\light_ray\\light_ray.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "db7f197e-e141-45b0-a4e3-6646c305c5ae",
             "Value": {
                 "id": "31beb41c-94f0-4f35-b064-53d0f586036a",
                 "resourcePath": "scripts\\Phone_GetNumber\\Phone_GetNumber.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dbcfe842-ac3f-41a4-8510-ab721a87b5d8",
+            "Value": {
+                "id": "3a9875f5-fa1b-40fd-8b79-4330d3c646e2",
+                "resourcePath": "objects\\obj_coin\\obj_coin.yy",
+                "resourceType": "GMObject"
             }
         },
         {
