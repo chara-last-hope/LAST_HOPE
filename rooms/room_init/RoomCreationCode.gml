@@ -8,3 +8,5 @@ window_set_caption("Init")
 	if(global.exists=1){
 		room_goto(room_logo1)
 	}
+	
+	global.testingroom=room_mt_0
