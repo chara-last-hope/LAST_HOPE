@@ -27,3 +27,13 @@
 "font.battle.1.scale.y"		"1"
 "font.battle.1.space.x"		"0"
 "font.battle.space.y"		"0"
+
+"font.mercy.0"		"mercy"
+"font.mercy.0.scale.x"		"1"
+"font.mercy.0.scale.y"		"1"
+"font.mercy.0.space.x"		"0"
+"font.mercy.1"		"mercy"
+"font.mercy.1.scale.x"		"1"
+"font.mercy.1.scale.y"		"1"
+"font.mercy.1.space.x"		"0"
+"font.mercy.space.y"		"0"

@@ -1,3 +1,4 @@
 ./font/dotumche.ini
 ./font/determination_mono.ini
 ./font/determination_sans.ini
+./font/mercy.ini

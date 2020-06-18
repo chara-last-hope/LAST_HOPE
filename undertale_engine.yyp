@@ -615,6 +615,14 @@
             }
         },
         {
+            "Key": "137918a2-3ff1-4b02-b7cf-b45147fbc37e",
+            "Value": {
+                "id": "f0a18468-7a2e-4d82-b43d-6619a8aaeb52",
+                "resourcePath": "sprites\\spr_largemenu_final\\spr_largemenu_final.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "13fd779b-390a-41d6-8cc9-7caa6e0210e4",
             "Value": {
                 "id": "0b1e3a2a-535b-42c3-a67a-bb29df126be8",
@@ -6852,6 +6860,14 @@
                 "id": "fc6d62dd-0335-4481-8c88-5bd4a139a59a",
                 "resourcePath": "scripts\\Input_GetState\\Input_GetState.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e6730434-5cba-4411-aba1-b14a37df1128",
+            "Value": {
+                "id": "42be71e9-d212-409a-8cbb-9a71ee309543",
+                "resourcePath": "fonts\\font_smash_creeper\\font_smash_creeper.yy",
+                "resourceType": "GMFont"
             }
         },
         {
