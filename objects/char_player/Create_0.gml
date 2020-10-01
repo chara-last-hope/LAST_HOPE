@@ -4,6 +4,10 @@ char_id=0;
 smiling=false
 inwater=0
 
+//Step Sounds
+wood_stepable=0 
+steppitch=1
+
 
 res_idle_sprite[DIR.UP]=spr_char_chara_up;
 res_idle_sprite[DIR.DOWN]=spr_char_chara_down;

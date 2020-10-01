@@ -4,15 +4,20 @@
 /// @arg filepath
 /// @arg vformat
 /// @return -1 on fail or a vbuffer ID
+function model_load(argument0, argument1) {
 
-if(!file_exists(argument0))
-{
-	show_debug_message("File not Found: " + string(argument0));
-	return -1;
+	if(!file_exists(argument0))
+	{
+		show_debug_message("File not Found: " + string(argument0));
+		return -1;
+	}
+	var buff = buffer_load(argument0);
+
+	var vbuff = vertex_create_buffer_from_buffer(buff, argument1);
+
+	buffer_delete(buff);
+	return vbuff;
+
+
+
 }
-var buff = buffer_load(argument0);
-
-var vbuff = vertex_create_buffer_from_buffer(buff, argument1);
-
-buffer_delete(buff);
-return vbuff;

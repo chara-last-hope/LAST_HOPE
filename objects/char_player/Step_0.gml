@@ -1,5 +1,5 @@
 var can_move=(moveable&&_moveable_dialog&&_moveable_menu&&_moveable_save&&_moveable_warp&&_moveable_encounter);
-inwater=place_meeting(x,y,trigger_inwater);
+
 if(can_move){
 	if(Input_IsHeld(INPUT.UP)){
 		move[DIR.UP]=2;
@@ -75,9 +75,22 @@ res_move_sprite[DIR.LEFT]=spr_char_chara_dark_right;
 res_move_sprite[DIR.RIGHT]=spr_char_chara_dark_right;
 }
 
+//Water Splash
+inwater=place_meeting(x,y,trigger_inwater);
+
+
+
+//Step sounds
+wood_stepable=place_meeting(x,y,trigger_wood_stepable)
+
 if(image_index=1 && inwater=1){
 	audio_play_sound(snd_splash,0,false);	
 }
+
+
+
+
+
 
 _light.x=x;
 _light.y=y-sprite_height/2;
